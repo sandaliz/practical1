@@ -32,5 +32,12 @@
 				<p>Welcome to my first webpage!</p>
 			</main>
 		</div>
+	<button id="changeTextBtn">Click Me!</button>
+
+	<script>
+    document.getElementById('changeTextBtn').addEventListener('click', function() {
+        document.querySelector('h1').textContent = 'Welcome to My Webpage!';
+    });
+	</script>	
 	</body>
 </html>
